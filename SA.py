@@ -1,7 +1,7 @@
 import math
 import random
 import matplotlib.pyplot as plt
-import animated_visualizer
+import VSLI
 
 
 class SimAnneal():
@@ -105,7 +105,7 @@ class SimAnneal():
 # Animated visualization of TSP
     def animateSolutions(self):
 
-        animated_visualizer.animateTSP(self.path_history, self.coords)
+        VLSI.animateTSP(self.path_history, self.coords)
 
 #  Plot the fitness through iterations.
     def plot_learning(self):
